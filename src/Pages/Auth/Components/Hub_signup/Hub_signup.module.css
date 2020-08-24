@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    padding: 40px 0;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 40px;
+}
+
+.next_button {
+    font-size: 200px;
+}
+
+.collection_button_container {
+    display: flex;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.collection_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+}
+
+.question {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.question_caption {
+    color: grey;
+    margin: 10px 0;
+}

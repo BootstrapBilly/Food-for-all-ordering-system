@@ -1,0 +1,13 @@
+.container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input_label{
+    margin-bottom: 5px;
+    margin-left: 27px;
+    font-size: 16px;
+    font-weight: 600;
+}

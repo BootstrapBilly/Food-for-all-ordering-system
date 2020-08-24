@@ -1,13 +1,40 @@
 import React from 'react';
 
-function App() {
+//components
+import Auth from "./Pages/Auth/Auth"
+import TopBar from "./Shared Components/Top_bar/Top_bar"
+import classes from './App.module.css';
+
+//external
+import { BrowserRouter, Switch, Route } from "react-router-dom"
+
+const App = () => {
+
+
   return (
-    <div>
 
-      app
+    <React.Fragment>
 
-    </div>
+      <TopBar />
+
+      <div className={classes.container}>
+
+          <BrowserRouter>
+
+            <Switch>
+
+              <Route path="/" exact component={Auth} />
+
+            </Switch>
+
+          </BrowserRouter>
+
+      </div>
+
+    </React.Fragment>
+
   );
+
 }
 
 export default App;
